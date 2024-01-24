@@ -1,0 +1,60 @@
+Actor: Patient,nurse and doctor
+
+use case:
+Scenarios
+1. Patient sends an appointment
+2. Nurse receives an appointment of patient
+3. Nurse make an apointment
+4. Nurse sends an appointment to doctor
+5. Doctor accepts an appointment
+6. Nurse receives the acceptance
+7. Nurse sends the acceptance to patient
+8. Patient receives the acceptance from nurse
+9. Doctors examine patients
+10. The doctor gave the patient's prescription
+11. Patient receives medication from nurse
+
+3a: Nurse change the appointment
+	3a1: Nurse make new the appointment
+	3a2: Nurse sends the new appointment to patient
+	3a3: Patient receives the new appointment
+	3a4: Patient accepts the new appointment
+		3b4: Patient denies the new appointment
+		3b5: Nurse receives the denial from patient
+	3a5: Nurse receives the acceptance
+
+
+4b: Doctor denys an appointment
+	4b1: Nurse receives the denial
+	4b2: Nurse sends the denial to patient
+
+7c: Patient denys the acceptance
+
+7d: Patient ignores the acceptance
+	7d1: Nurse don't receive the confirmation from the patient on 7 days
+	7d2: Nurse marks "Expiration of approval" to the patient
+
+10e: Patient is healthy and does not need a prescription
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

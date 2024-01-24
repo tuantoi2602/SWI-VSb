@@ -1,0 +1,29 @@
+Buying the shoes
+all actor: Customer, cashier, supplier
+
+Use case 1:
+Scenario:
+1. Customer chooses the shoes
+2. System check the number of available shoes 
+3. Customer chooses a size
+4. System check the number of available size of shoes 
+5. Customer sends the request to system
+6. System create the request
+7. System sends the request to the supplier
+8. Supplier receives the request
+9. Supplier sends the confirmation to system
+10. Supplier sends the shoes to the cashier
+11. System send the confirmation to customer
+12. Customer receives the confirmation
+13. Customer comes to the store
+14. Customer pays for shoes to the cashier
+15. Customer receives the shoes from the cashier
+
+Extension:
+2a. System announce out of shoe
+
+4b. System announce out of size
+
+13c. Customer pays online to the cashier
+	13c. The cashier sends the shoes to customer by a delivery service
+	13c1. Customer receives the shoes

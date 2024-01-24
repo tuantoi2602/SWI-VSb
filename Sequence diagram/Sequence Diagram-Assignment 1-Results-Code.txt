@@ -1,0 +1,29 @@
+public class Room request{
+	ok Fill(){
+		Room specification x = new Room specification()
+		return x.specify();
+	}
+	results Request (){
+		return School premises.find();
+	}
+	ok release Request(){
+		this.the room speficication();
+		OK = Mail Server.sent();
+		return OK;
+	}
+	void the room specification(){
+	}
+	ok close request(){
+		x.destroy();
+		return ok;
+	}
+}
+
+public class School premises{
+	searchResults Find(){
+		for (int i=1; i<=allRooms; i++){
+			Search Result = Search Result + Room.Do you meet the requirement();
+		}
+		return Search Result;
+	}
+}

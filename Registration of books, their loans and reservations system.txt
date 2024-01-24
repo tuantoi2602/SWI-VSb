@@ -1,0 +1,24 @@
+Registration of books, their loans and reservations system
+
+Actors: Readers, the staff, the operator, the chief librarian
+
+Scenario:
+Reservation and loan:
+1. The reader login to the system.
+2. The reader search a book.
+3. The reader order a book.
+4. The staff are informed to order books.
+5. The staff create a book for readers.
+6. The operator can manage book (add,remove,edit, search)
+7. The operator will search for the book that the reader has reserved.
+8. The operator printed out the receipt confirming (ID of book)  the book was borrowed.
+9. The staff receives a bill from the operator.
+10. The staff send a book to the readers.
+11. The chief librarian has the ability to work as an operator and can also create and manage reports
+Exception:
+
+3a. The reader don't pre-order to rent.
+	3a. The staff will book a book rental.
+8b. The operator announced that the book had been sold out.
+	9b. The staff are informed from the operator.
+	10b. The staff informs readers that the books are sold out.
